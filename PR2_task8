@@ -1,0 +1,9 @@
+def calculate_candies(N, M):
+    total_people = N + 1  
+    candies_per_person = M // total_people  
+    return candies_per_person
+quantity = input("Введите количество друзей и количество конфет: ")
+N, M = map(int, quantity.split())
+
+candies_per_person = calculate_candies(N, M)
+print(f"Каждому достанется {candies_per_person} конфет.")
