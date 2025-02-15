@@ -1,0 +1,11 @@
+def calculate_bulls(N, K):
+    if K == 0:  
+        return N  
+    rest_bulls = N % K  
+    return rest_bulls
+
+input_quantity = input("Введите количество быков и количество семей: ")
+N, K = map(int, input_quantity.split())
+
+bulls_to_release = calculate_bulls(N, K)
+print(f"Количество быков, которыx придется отпустить на волю: {bulls_to_release}")
