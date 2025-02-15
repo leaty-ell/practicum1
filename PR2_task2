@@ -1,0 +1,8 @@
+country = input("Введите название страны: ")
+words = country.split()
+
+if len(words) == 2:
+    print(words[0])
+    print(words[1])
+else:
+    print("Ошибка: Введите корректное название страны из двух слов.")
