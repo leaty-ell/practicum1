@@ -1,0 +1,3 @@
+s, r = map(int, input("Введите стоимость шоколадок: ").split())
+total_cost = s + r
+print("Общая стоимость:", total_cost, "руб.")
