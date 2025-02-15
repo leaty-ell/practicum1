@@ -1,0 +1,4 @@
+sales = float(input("Введите плановую сумму общего объема продаж: "))
+profit_percent = 0.19
+profit = sales * profit_percent
+print(f"Ожидаемая прибыль: {profit:.2f} руб.")
