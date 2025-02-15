@@ -1,0 +1,11 @@
+def calculate_rainfall_volume():
+    area_hectares = 1
+    area_meters = area_hectares * 10000
+    rainfall_height = 0.01 
+    volume_meters = area_meters * rainfall_height
+    volume_liters = volume_meters * 1000
+    return volume_liters
+
+rainfall_volume = calculate_rainfall_volume()
+print(f"Объем дождя в литрах на один гектар при уровне осадков 1 сантиметр: {rainfall_volume}")
+
