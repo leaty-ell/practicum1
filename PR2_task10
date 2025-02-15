@@ -1,0 +1,9 @@
+def calculate_miles(meters):
+    full_miles = meters // 1609.34  
+    return full_miles
+
+input_miles = input("Введите расстояние в метрах: ")
+meters = float(input_miles)
+
+full_miles = int(calculate_miles(meters))
+print(f"Фейт пробежала {full_miles} полных миль.")
