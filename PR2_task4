@@ -1,0 +1,10 @@
+man = 1
+ladies = 7
+bags = 7
+cats = 7
+kittens = 7
+
+total_cats = ladies * bags * cats
+total_kittens = total_cats * kittens
+total = man + ladies + total_cats + total_kittens
+print(total)
