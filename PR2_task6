@@ -1,0 +1,10 @@
+def calculate_bmi(weight, height):
+    bmi = (weight * 703) / (height ** 2)
+    return bmi
+
+weight = float(input("Введите вес в фунтах: "))
+height = float(input("Введите высоту в дюймах: "))
+bmi = calculate_bmi(weight, height)
+
+print(f"Индекс массы тела (ИМТ): {bmi:.2f}")
+
