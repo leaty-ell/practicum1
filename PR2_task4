@@ -3,8 +3,9 @@ ladies = 7
 bags = 7
 cats = 7
 kittens = 7
+author = 1
 
 total_cats = ladies * bags * cats
 total_kittens = total_cats * kittens
-total = man + ladies + total_cats + total_kittens
+total = man + ladies + total_cats + total_kittens + author
 print(total)
